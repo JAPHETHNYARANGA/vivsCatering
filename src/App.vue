@@ -32,5 +32,9 @@ export default {
   background-color:rgb(40, 40, 43);
 }
 
+h1,h2,h3,h4,h5,p,li{
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 </style>

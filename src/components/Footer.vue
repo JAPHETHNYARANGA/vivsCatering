@@ -16,7 +16,7 @@
             <p class="text-secondary">Sat. - Sun. <b>Flexible Hours</b></p>
           </div>
           <div class="col-sm-6 col-md-6">
-            <form action="mail.php" method="post">
+            <form action="#">
               <div class="card rounded-0">
                 <div class="card-header p-0">
                   <div class="text-white text-center py-2 quote-header">
@@ -60,11 +60,13 @@
                     </div>
                   </div>
                 </div>
+                 <button class="btn btn-dark mx-5 mb-2 " >Send Email</button>
               </div>
+             
             </form>
           </div>
           <div class="col-sm-6 col-md-3">
-            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255348.15986362836!2d34.59807888807205!3d-0.07394211911515454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa496ab60aebd%3A0x71c2d31867dd2a11!2sKisumu%20City%20Business%20Park!5e0!3m2!1sen!2ske!4v1669022480458!5m2!1sen!2ske" style="border:0;" allowfullscreen="" loading="lazy" height="250px" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="w-100 maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255348.15986362836!2d34.59807888807205!3d-0.07394211911515454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa496ab60aebd%3A0x71c2d31867dd2a11!2sKisumu%20City%20Business%20Park!5e0!3m2!1sen!2ske!4v1669022480458!5m2!1sen!2ske" style="border:0;" allowfullscreen="" loading="lazy" height="250px" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           
           
@@ -85,20 +87,7 @@ export default {};
 
 <style scoped>
 
-ul {
-  margin: 0px;
-  padding: 0px;
-}
-ul li {
-  list-style: none;
-}
-ul li a {
-  text-decoration: none;
-  color: #333333;
-  font-size: 16px;
-  margin: 8px 0px;
-  display: block;
-}
+
 
 .quote-header{
   background-color: rgb(40, 40, 43);;
@@ -108,7 +97,12 @@ ul li a {
   background-color:rgb(40, 40, 43);
 }
 
-.borders {
-  border: 2px solid red;
+.btn{
+  font-family: 'Montserrat', sans-serif;
 }
+
+.btn:hover{
+  transform: scale(1.05);
+}
+
 </style>

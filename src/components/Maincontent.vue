@@ -13,7 +13,10 @@
                 class="img-fluid"
               />
             </div>
-            <a class="btn btn-outline-light btn-lg mt-4" href="#!" role="button"
+            <a
+              class="btn btn-outline-light btn-lg mt-4 homebutton"
+              href="#!"
+              role="button"
               >Request a quote</a
             >
           </div>
@@ -72,85 +75,80 @@
     </div>
   </section>
 
- <section class="team-sectio container">
-
+  <section class="team-sectio container">
     <div class="team-wrapper mt-5">
       <div class="row p-5">
-  <div class="col p-2">
-    <div class="card centering-items">
-       <img
+        <div class="col p-2">
+          <div class="card centering-items">
+            <img
               src="../assets/ceo2.jpg"
               alt="member"
               class="rounded-circle mt-3"
               height="200px"
               width="200px"
             />
-      <div class="card-body">
-        <h5 class="card-title text-center">VIVIAN - CEO</h5>
-        <p class="card-text text-center">
-          Some Text will go here about the person</p>
-      </div>
-    </div>
-  </div>
-  <div class="col p-2">
-    <div class="card centering-items">
-       <img
+            <div class="card-body">
+              <h5 class="card-title text-center">VIVIAN - CEO</h5>
+              <p class="card-text text-center">
+                Some Text will go here about the person
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-2">
+          <div class="card centering-items">
+            <img
               src="../assets/ceo2.jpg"
               alt="member"
               class="rounded-circle mt-3"
               height="200px"
               width="200px"
             />
-      <div class="card-body">
-        <h5 class="card-title text-center">ELVINCE - CHEF</h5>
-        <p class="card-text text-center">
-          Some Text will go here about the person
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col p-2">
-    <div class="card centering-items">
-       <img
+            <div class="card-body">
+              <h5 class="card-title text-center">ELVINCE - CHEF</h5>
+              <p class="card-text text-center">
+                Some Text will go here about the person
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-2">
+          <div class="card centering-items">
+            <img
               src="../assets/ceo2.jpg"
               alt="member"
               class="rounded-circle mt-3"
               height="200px"
               width="200px"
             />
-      <div class="card-body">
-        <h5 class="card-title text-center">SHEILA-CHEF</h5>
-        <p class="card-text text-center">
-          Some Text will go here about the person
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col p-2">
-    <div class="card centering-items">
-       <img
+            <div class="card-body">
+              <h5 class="card-title text-center">SHEILA-CHEF</h5>
+              <p class="card-text text-center">
+                Some Text will go here about the person
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col p-2">
+          <div class="card centering-items">
+            <img
               src="../assets/ceo2.jpg"
               alt="member"
               class="rounded-circle mt-3"
               height="200px"
               width="200px"
             />
-      <div class="card-body">
-        <h5 class="card-title text-center">KENNEDY - CHEF</h5>
-        <p class="card-text text-center">
-        Some Text will go here about the person
-        </p>
+            <div class="card-body">
+              <h5 class="card-title text-center">KENNEDY - CHEF</h5>
+              <p class="card-text text-center">
+                Some Text will go here about the person
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  
-</div>
-    </div>
-    
-   
   </section>
-
-  
 </template>
 
 <script>
@@ -252,13 +250,11 @@ export default {
   height: 250px;
 }
 
-
-.centering-items{
+.centering-items {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .card {
   background-color: rgb(219, 201, 42);
@@ -271,18 +267,13 @@ export default {
 .back {
   background-image: url("../assets/platter.jpg");
   height: 100vh;
-
-
 }
 
-.form-wrapper{
+.homebutton{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-wrapper {
   width: 50%;
-}
-
-
-
-
-.borders {
-  border: 2px solid red;
 }
 </style>
