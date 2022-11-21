@@ -58,6 +58,7 @@ color: rgb(219, 201, 42);;
 
 span{
     color: rgb(219, 201, 42);
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
