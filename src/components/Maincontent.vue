@@ -25,7 +25,7 @@
     </div>
   </section>
 
-  <section class="about-section">
+  <section class="about-section" id="about-section">
     <div class="about-container">
       <Carousel :items-to-show="1" :wrap-around="true" :autoplay="3000">
         <Slide v-for="aboutSlide in aboutSlides" :key="aboutSlide.id">

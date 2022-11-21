@@ -1,6 +1,6 @@
 <template>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" v-on:scroll="handleScroll" :class="{ scrollpos: isScrolled }">
       <div class="container">
         <a class="navbar-brand" href="#">Viviana's <span>Catering</span></a>
         <button
@@ -41,11 +41,29 @@
 <script>
 export default {
 
+  data(){
+    return{
+      isScrolled: false
+    }
+  },
+
+  methods: {
+    handleScroll(){
+
+      this.isScrolled = true
+
+    }
+  }
+
 
 }
 </script>
 
 <style scoped>
+
+.scrollpos{
+  background-color: rgb(40, 40, 43);;
+}
 
 
 .nav-link{
@@ -61,8 +79,6 @@ span{
     font-family: 'Montserrat', sans-serif;
 }
 
-nav{
-  background-color: rgb(40, 40, 43);
-}
+
 
 </style>
