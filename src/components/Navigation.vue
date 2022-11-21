@@ -68,8 +68,8 @@ span{
     color: rgb(219, 201, 42);;
 }
 
-.scroll-nav{
-  background-color: black;
+nav{
+  background-color: rgb(40, 40, 43);
 }
 
 </style>
